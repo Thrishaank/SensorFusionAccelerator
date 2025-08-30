@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/SET1/rtl/fusion_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fusion_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/SET1/rtl/kalman_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kalman_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/SET1/rtl/matrix_mult.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/SET1/rtl/tb_fusion.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fusion

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fusion_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/TestingLayout/rtl/tb_fusion_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fusion_top

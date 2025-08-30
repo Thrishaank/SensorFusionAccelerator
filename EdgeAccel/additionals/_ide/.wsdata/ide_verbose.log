@@ -1,0 +1,918 @@
+2025-08-16 22:54:22 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2025-08-16 22:54:22 [debug] : --------------------------------------------------------------------------------- 
+2025-08-16 22:54:22 [debug] : C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 22:54:22 [debug] : --------------------------------------------------------------------------------- 
+2025-08-16 22:54:22 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\thris\EdgeAccelerator\TestingLayout\fusion_top\_ide\logs\ide.log 
+2025-08-16 22:54:22 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\thris\EdgeAccelerator\TestingLayout\fusion_top\_ide\.wsdata\ide_verbose.log 
+2025-08-16 22:54:22 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 22:54:22 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-08-16 22:54:22 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-08-16 22:54:22 [debug] : [Logger UI]  Update Log Level  called 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 22:54:22 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 22:54:22 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-16 22:54:22 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 22:54:22 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 22:54:22 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 22:54:22 [debug] : [git-locator: 3668] IPC started 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : Marking the target connection as default Local 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : Marking the target connection as default Linux Agent 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : Marking the target connection as default XRTServer 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : Marking the target connection as default LinuxEmulation 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : Marking the target connection as default QEMU 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : updated workspace path: C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 22:54:22 [debug] : RIGEL SERVER 22:54:22 INFO  : created .gitignore file for the project C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 22:54:22 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-08-16 22:54:22 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e0f751e5-ff3b-4a77-acc7-0cd3ae0e9674",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 22:54:22 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-08-16 22:54:22 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-08-16 22:54:22 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-08-16 22:54:22 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 22:54:22 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 22:54:22 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 2,
+        "endColumn": 31
+      },
+      "rangeLength": 2,
+      "text": "[]",
+      "rangeOffset": 31,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:22 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 22:54:23 [debug] : [git-locator: 3668] IPC exited 
+2025-08-16 22:54:23 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 22:54:23 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 22:54:24 [debug] : [git-locator: 32412] IPC started 
+2025-08-16 22:54:24 [debug] : [git-locator: 32412] IPC exited 
+2025-08-16 22:54:26 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 22:54:26 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 22:54:26 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 22:54:26 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 22:54:28 [debug] : [git-locator: 33564] IPC started 
+2025-08-16 22:54:28 [debug] : [git-locator: 33564] IPC exited 
+2025-08-16 22:54:42 [debug] : [git-locator: 48108] IPC started 
+2025-08-16 22:54:42 [debug] : [git-locator: 48108] IPC exited 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/commands'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/logger'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/messageService'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/envs'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/workspace'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-08-16 23:03:43 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/application'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/i18n'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/project'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/component'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/debugger'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/debug'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/task'. 
+2025-08-16 23:03:43 [debug] : a client has disconnected - removed from list: 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/search'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/request-service'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/server'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/repository'. 
+2025-08-16 23:03:43 [debug] : [Repository Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-08-16 23:03:43 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/build'. 
+2025-08-16 23:03:43 [debug] : [Build Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/aie'. 
+2025-08-16 23:03:43 [debug] : [AIE Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/analysis'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/notification'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/platform'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-08-16 23:03:43 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-08-16 23:03:43 [debug] : [Logger Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/device'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/vcxx'. 
+2025-08-16 23:03:43 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-08-16 23:03:43 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/git'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/git-watcher'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/report-model'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-08-16 23:03:43 [debug] : Closing channel on service path '/services/keytar'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/commands'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/keyboard'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/logger'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/messageService'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/startup-workspace'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/remote-filesystem'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/envs'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/workspace'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/stopwatch'. 
+2025-08-16 23:03:44 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/rigel-utils'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/application'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/i18n'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hostedPlugin'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/project'. 
+2025-08-16 23:03:44 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/rigel-workspace'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/component'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/feature-registry'. 
+2025-08-16 23:03:44 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/debugger'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/debug'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/shell-terminal'. 
+2025-08-16 23:03:44 [debug] : a client has connected - adding it to the list: 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/task'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/quickPick'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/plugin-ext'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/plugin-paths'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/search'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/vsx-environment'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/request-service'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/server'. 
+2025-08-16 23:03:44 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/repository'. 
+2025-08-16 23:03:44 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/program_flash'. 
+2025-08-16 23:03:44 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/build'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path 'services/rigel-backend-helper'. 
+2025-08-16 23:03:44 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/aie'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/analysis'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/notification'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/recent-summaries'. 
+2025-08-16 23:03:44 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/platform'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/l1library/service'. 
+2025-08-16 23:03:44 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/elf-reader'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/rigel_explorer'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/linker-script'. 
+2025-08-16 23:03:44 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/rigel-logger'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/vitis-hls'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/device'. 
+2025-08-16 23:03:44 [debug] : [Rigel Vcxx Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/vcxx'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/common/file/service'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/flow_navigator'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/common/data/info'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/report'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/dataflow/info'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/directive'. 
+2025-08-16 23:03:44 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls_flow'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/git'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/git-watcher'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/mini-browser-service'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/project-utils'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/bootgen'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/cdo-utils'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/report-model'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/hls/wave/open'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/search-in-workspace'. 
+2025-08-16 23:03:44 [debug] : Opening channel for service path '/services/keytar'. 
+2025-08-16 23:03:44 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Workspace Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Debugger Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Repository Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Logger Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Rigel Vcxx Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.make]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][webfreak.debug]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][pkief.material-icon-theme]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][llvm-vs-code-extensions.vscode-clangd]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json-language-features]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.cpp]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-output]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-verilog-vhdl-support]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-pragma]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-l1-library]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-config]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][twxs.cmake]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.tcf-debug]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eclipse-cdt.serial-monitor]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eamodio.gitlens]: Disconnected. 
+2025-08-16 23:03:44 [debug] : [hosted-plugin: 21248] IPC started 
+2025-08-16 23:03:45 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Waiting for backend deployment: 55.2 ms [Finished 573.573 s after frontend start] 
+2025-08-16 23:03:45 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Sync of 0 plugins: 0.2 ms [Finished 573.573 s after frontend start] 
+2025-08-16 23:03:45 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Load contributions of 0 plugins: 0.0 ms [Finished 573.573 s after frontend start] 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : getTasks(): about to return task information for 0 tasks 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248) starting instance 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): PluginManagerExtImpl/init() 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(gitlens@11.7.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(serial-monitor@1.0.2 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(tcf-debug@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] Debugger contribution has been registered: tcf-debug 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(cmake@0.0.17 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vitis-config@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vitis-hls-l1-library@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vitis-hls-pragma@0.6.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vitis-output@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(cpp@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(json@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(json-language-features@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(vscode-clangd@0.1.15 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(material-icon-theme@4.11.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(debug@0.26.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] Debugger contribution has been registered: gdb 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] Debugger contribution has been registered: lldb-mi 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] Debugger contribution has been registered: mago-mi 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): initializing(make@1.79.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2025-08-16 23:03:45 [debug] : [hosted-plugin: 21248] PLUGIN_HOST(21248): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2025-08-16 23:03:46 [debug] : command 'gitlens.clearFileAnnotations' already registered 
+2025-08-16 23:03:46 [debug] : command 'gitlens.computingFileAnnotations' already registered 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eamodio.gitlens]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eclipse-cdt.serial-monitor]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.tcf-debug]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][twxs.cmake]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-config]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-l1-library]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-pragma]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-output]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.cpp]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json-language-features]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][pkief.material-icon-theme]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][webfreak.debug]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.make]: Started plugin. 
+2025-08-16 23:03:46 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Start of 16 plugins: 1119.4 ms [Finished 574.727 s after frontend start] 
+2025-08-16 23:03:46 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 23:03:46 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:03:46 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 23:03:46 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:03:48 [debug] : [git-locator: 7672] IPC started 
+2025-08-16 23:03:48 [debug] : [git-locator: 7672] IPC exited 
+2025-08-16 23:03:52 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:52 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:03:54 [debug] : [git-locator: 37668] IPC started 
+2025-08-16 23:03:55 [debug] : [git-locator: 37668] IPC exited 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/commands'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/logger'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/messageService'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/envs'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/workspace'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-08-16 23:13:22 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/application'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/i18n'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/project'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/component'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/debugger'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/debug'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/task'. 
+2025-08-16 23:13:22 [debug] : a client has disconnected - removed from list: 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/search'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/request-service'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/server'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/repository'. 
+2025-08-16 23:13:22 [debug] : [Repository Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-08-16 23:13:22 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/build'. 
+2025-08-16 23:13:22 [debug] : [Build Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/aie'. 
+2025-08-16 23:13:22 [debug] : [AIE Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/analysis'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/notification'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/platform'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-08-16 23:13:22 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-08-16 23:13:22 [debug] : [Logger Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/device'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/vcxx'. 
+2025-08-16 23:13:22 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-08-16 23:13:22 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/git'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/git-watcher'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/report-model'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-08-16 23:13:22 [debug] : Closing channel on service path '/services/keytar'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/commands'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/keyboard'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/logger'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/messageService'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/startup-workspace'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/remote-filesystem'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/envs'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/workspace'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/stopwatch'. 
+2025-08-16 23:13:26 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/rigel-utils'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/application'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/i18n'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hostedPlugin'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/project'. 
+2025-08-16 23:13:26 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/rigel-workspace'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/component'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/feature-registry'. 
+2025-08-16 23:13:26 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/debugger'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/debug'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/shell-terminal'. 
+2025-08-16 23:13:26 [debug] : a client has connected - adding it to the list: 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/task'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/quickPick'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/plugin-ext'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/plugin-paths'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/search'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/vsx-environment'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/request-service'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/server'. 
+2025-08-16 23:13:26 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/repository'. 
+2025-08-16 23:13:26 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/program_flash'. 
+2025-08-16 23:13:26 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/build'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path 'services/rigel-backend-helper'. 
+2025-08-16 23:13:26 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/aie'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/analysis'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/notification'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/recent-summaries'. 
+2025-08-16 23:13:26 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/platform'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/l1library/service'. 
+2025-08-16 23:13:26 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/elf-reader'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/rigel_explorer'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/linker-script'. 
+2025-08-16 23:13:26 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/rigel-logger'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/vitis-hls'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/device'. 
+2025-08-16 23:13:26 [debug] : [Rigel Vcxx Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/vcxx'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/common/file/service'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/flow_navigator'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/common/data/info'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/report'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/dataflow/info'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/directive'. 
+2025-08-16 23:13:26 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls_flow'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/git'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/git-watcher'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/mini-browser-service'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/project-utils'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/bootgen'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/cdo-utils'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/report-model'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/hls/wave/open'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/search-in-workspace'. 
+2025-08-16 23:13:26 [debug] : Opening channel for service path '/services/keytar'. 
+2025-08-16 23:13:26 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Workspace Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Debugger Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Repository Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Logger Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Rigel Vcxx Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.make]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][webfreak.debug]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][pkief.material-icon-theme]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][llvm-vs-code-extensions.vscode-clangd]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json-language-features]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.cpp]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-output]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-verilog-vhdl-support]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-pragma]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-l1-library]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-config]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][twxs.cmake]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.tcf-debug]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eclipse-cdt.serial-monitor]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eamodio.gitlens]: Disconnected. 
+2025-08-16 23:13:26 [debug] : [hosted-plugin: 33456] IPC started 
+2025-08-16 23:13:32 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2025-08-16 23:13:32 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-08-16 23:13:32 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-08-16 23:13:32 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-08-16 23:13:32 [debug] : [Elf Reader Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Rigel Utils Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Workspace Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\thris\EdgeAccelerator\TestingLayout' in the server from service. 
+2025-08-16 23:13:32 [debug] : [Debugger Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Repository Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Logger Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [Rigel vcxx Client] Initializaton completed. 
+2025-08-16 23:13:32 [debug] : [HLS Flow Client] Initialization completed. 
+2025-08-16 23:13:32 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Waiting for backend deployment: 667.2 ms [Finished 1155.755 s after frontend start] 
+2025-08-16 23:13:32 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Sync of 0 plugins: 0.0 ms [Finished 1155.755 s after frontend start] 
+2025-08-16 23:13:32 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Load contributions of 0 plugins: 0.0 ms [Finished 1155.756 s after frontend start] 
+2025-08-16 23:13:32 [debug] : Widget was activated, but did not accept focus after 2000ms: outline-view 
+2025-08-16 23:13:32 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\thris\\EdgeAccelerator\\TestingLayout"} 
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456) starting instance 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : getTasks(): about to return task information for 0 tasks 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_hls_examples","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2024.2","gitSubfoldersList":[],"type":4},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_libraries","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2024.2","gitSubfoldersList":["blas","codec","data_analytics","data_compression","data_mover","database","dsp","graph","hpc","motor_control","quantitative_finance","security","solver","sparse","ultrasound","utils","vision"],"type":1}]}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_examples","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2024.2","gitSubfoldersList":[],"type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2024.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2024.2/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_libraries","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2024.2","gitSubfoldersList":["blas","codec","data_analytics","data_compression","data_mover","database","dsp","graph","hpc","motor_control","quantitative_finance","security","solver","sparse","ultrasound","utils","vision"],"type":1}]}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_examples","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2024.2","gitSubfoldersList":[],"type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2024.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2024.2/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_libraries","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2024.2","gitSubfoldersList":["blas","codec","data_analytics","data_compression","data_mover","database","dsp","graph","hpc","motor_control","quantitative_finance","security","solver","sparse","ultrasound","utils","vision"],"type":1}]}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/Xilinx/Vitis/2024.2/installed_aie_examples","localDirectory":"C:/Xilinx/Vitis/2024.2/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":3},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2024.2/vitis_libraries","localDirectory":"C:/Users/thris/.Xilinx/Vitis/2024.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2024.2","gitSubfoldersList":["blas","codec","data_analytics","data_compression","data_mover","database","dsp","graph","hpc","motor_control","quantitative_finance","security","solver","sparse","ultrasound","utils","vision"],"type":1}]}
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:32 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2025-08-16 23:13:32 [debug] : --------------------------------------------------------------------------------- 
+2025-08-16 23:13:32 [debug] : C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 23:13:32 [debug] : --------------------------------------------------------------------------------- 
+2025-08-16 23:13:32 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\thris\EdgeAccelerator\TestingLayout\_ide\logs\ide.log 
+2025-08-16 23:13:32 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\thris\EdgeAccelerator\TestingLayout\_ide\.wsdata\ide_verbose.log 
+2025-08-16 23:13:32 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-16 23:13:32 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-08-16 23:13:32 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-08-16 23:13:32 [debug] : [Logger UI]  Update Log Level  called 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 23:13:32 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_hls_examples 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] vitis_examples:false 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] installed_examples:true 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] vitis_hls_examples:false 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-16 23:13:32 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-16 23:13:32 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): PluginManagerExtImpl/init() 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-16 23:13:32 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(gitlens@11.7.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : RIGEL SERVER 23:13:32 INFO  : updated workspace path: C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 23:13:32 [debug] : RIGEL SERVER 23:13:32 INFO  : created .gitignore file for the project C:\Users\thris\EdgeAccelerator\TestingLayout 
+2025-08-16 23:13:32 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(serial-monitor@1.0.2 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(tcf-debug@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] Debugger contribution has been registered: tcf-debug 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(cmake@0.0.17 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(vitis-config@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ed72275b-17ff-4cf1-b6d0-c14b184feaa4",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-16 23:13:32 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(vitis-hls-l1-library@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(vitis-hls-pragma@0.6.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(vitis-output@0.0.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(cpp@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(json@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(json-language-features@1.52.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(vscode-clangd@0.1.15 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(33456): initializing(material-icon-theme@4.11.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(debug@0.26.1 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] Debugger contribution has been registered: gdb
+Debugger contribution has been registered: lldb-mi 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] Debugger contribution has been registered: mago-mi 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): initializing(make@1.79.0 with C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-08-16 23:13:32 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:13:32 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 23:13:32 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 2,
+        "endColumn": 31
+      },
+      "rangeLength": 2,
+      "text": "[]",
+      "rangeOffset": 31,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension) 
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/thris/EdgeAccelerator/TestingLayout/fusion_top/_ide/settings.json"}
+2025-08-16 23:13:32 [debug] : [hosted-plugin: 33456] PLUGIN_HOST(33456): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2025-08-16 23:13:32 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 23:13:32 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:13:32 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 23:13:32 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:13:33 [debug] : command 'gitlens.clearFileAnnotations' already registered 
+2025-08-16 23:13:33 [debug] : command 'gitlens.computingFileAnnotations' already registered 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eamodio.gitlens]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][eclipse-cdt.serial-monitor]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.tcf-debug]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][twxs.cmake]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-config]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-l1-library]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-pragma]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][amd.vitis-output]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.cpp]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.json-language-features]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][pkief.material-icon-theme]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][webfreak.debug]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53][vscode.make]: Started plugin. 
+2025-08-16 23:13:33 [debug] : [2fd65b21-ccba-4f6b-87ca-5d01a10cce53] Start of 16 plugins: 6086.7 ms [Finished 1161.847 s after frontend start] 
+2025-08-16 23:13:34 [debug] : [git-locator: 48348] IPC started 
+2025-08-16 23:13:34 [debug] : Widget was activated, but did not accept focus after 2000ms: outline-view 
+2025-08-16 23:13:34 [debug] : [git-locator: 48348] IPC exited 
+2025-08-16 23:13:38 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:38 [debug] : Theia configuration directory file:///c:/Users/thris/.Xilinx/Vitis/2024.2/.vitis' 
+2025-08-16 23:13:39 [debug] : [git-locator: 32604] IPC started 
+2025-08-16 23:13:40 [debug] : [git-locator: 32604] IPC exited 
+2025-08-16 23:17:07 [debug] : [git-locator: 31860] IPC started 
+2025-08-16 23:17:07 [debug] : [git-locator: 31860] IPC exited 
+2025-08-16 23:17:45 [debug] : [git-locator: 15068] IPC started 
+2025-08-16 23:17:45 [debug] : [git-locator: 15068] IPC exited 
+2025-08-16 23:17:49 [debug] : [git-locator: 30916] IPC started 
+2025-08-16 23:17:50 [debug] : [git-locator: 30916] IPC exited 
+2025-08-16 23:18:06 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 23:18:06 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:18:06 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 23:18:06 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:18:08 [debug] : [git-locator: 33172] IPC started 
+2025-08-16 23:18:08 [debug] : [git-locator: 33172] IPC exited 
+2025-08-16 23:22:46 [debug] : [git-locator: 21216] IPC started 
+2025-08-16 23:22:46 [debug] : [git-locator: 21216] IPC exited 
+2025-08-16 23:23:13 [debug] : [git-locator: 36172] IPC started 
+2025-08-16 23:23:13 [debug] : [git-locator: 36172] IPC exited 
+2025-08-16 23:23:20 [debug] : [git-locator: 472] IPC started 
+2025-08-16 23:23:21 [debug] : [git-locator: 472] IPC exited 
+2025-08-16 23:23:23 [debug] : [git-locator: 49448] IPC started 
+2025-08-16 23:23:23 [debug] : [git-locator: 49448] IPC exited 
+2025-08-16 23:51:28 [debug] : [git-locator: 37440] IPC started 
+2025-08-16 23:51:28 [debug] : [git-locator: 37440] IPC exited 
+2025-08-16 23:52:03 [debug] : [git-locator: 32980] IPC started 
+2025-08-16 23:52:03 [debug] : [git-locator: 32980] IPC exited 
+2025-08-16 23:52:04 [debug] : [git-locator: 22868] IPC started 
+2025-08-16 23:52:05 [debug] : [git-locator: 22868] IPC exited 
+2025-08-16 23:53:25 [debug] : [git-locator: 46868] IPC started 
+2025-08-16 23:53:26 [debug] : [git-locator: 46868] IPC exited 
+2025-08-16 23:53:36 [debug] : [git-locator: 47724] IPC started 
+2025-08-16 23:53:36 [debug] : [git-locator: 47724] IPC exited 
+2025-08-16 23:54:28 [debug] : [git-locator: 43788] IPC started 
+2025-08-16 23:54:28 [debug] : [git-locator: 43788] IPC exited 
+2025-08-16 23:55:05 [debug] : [git-locator: 33012] IPC started 
+2025-08-16 23:55:05 [debug] : [git-locator: 33012] IPC exited 
+2025-08-16 23:55:06 [debug] : [git-locator: 34180] IPC started 
+2025-08-16 23:55:07 [debug] : [git-locator: 34180] IPC exited 
+2025-08-16 23:55:08 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-16 23:55:08 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:55:08 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-16 23:55:08 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-16 23:55:10 [debug] : [git-locator: 40532] IPC started 
+2025-08-16 23:55:10 [debug] : [git-locator: 40532] IPC exited 
+2025-08-17 00:01:07 [debug] : [git-locator: 45448] IPC started 
+2025-08-17 00:01:07 [debug] : [git-locator: 45448] IPC exited 
+2025-08-17 00:01:09 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:01:09 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:01:09 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:01:09 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:01:11 [debug] : [git-locator: 34104] IPC started 
+2025-08-17 00:01:11 [debug] : [git-locator: 34104] IPC exited 
+2025-08-17 00:01:17 [debug] : [git-locator: 49764] IPC started 
+2025-08-17 00:01:17 [debug] : [git-locator: 49764] IPC exited 
+2025-08-17 00:01:20 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:01:20 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:01:20 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:01:20 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:01:21 [debug] : [git-locator: 11636] IPC started 
+2025-08-17 00:01:22 [debug] : [git-locator: 11636] IPC exited 
+2025-08-17 00:03:50 [debug] : [git-locator: 14676] IPC started 
+2025-08-17 00:03:51 [debug] : [git-locator: 14676] IPC exited 
+2025-08-17 00:04:47 [debug] : [git-locator: 19244] IPC started 
+2025-08-17 00:04:47 [debug] : [git-locator: 19244] IPC exited 
+2025-08-17 00:07:28 [debug] : [git-locator: 10512] IPC started 
+2025-08-17 00:07:28 [debug] : [git-locator: 10512] IPC exited 
+2025-08-17 00:07:31 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:07:31 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:07:31 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:07:31 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:07:33 [debug] : [git-locator: 48204] IPC started 
+2025-08-17 00:07:33 [debug] : [git-locator: 48204] IPC exited 
+2025-08-17 00:08:01 [debug] : [git-locator: 48860] IPC started 
+2025-08-17 00:08:02 [debug] : [git-locator: 48860] IPC exited 
+2025-08-17 00:08:02 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:08:02 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:08:02 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:08:02 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:08:04 [debug] : [git-locator: 21576] IPC started 
+2025-08-17 00:08:04 [debug] : [git-locator: 21576] IPC exited 
+2025-08-17 00:09:45 [debug] : [git-locator: 28156] IPC started 
+2025-08-17 00:09:46 [debug] : [git-locator: 28156] IPC exited 
+2025-08-17 00:20:00 [debug] : [git-locator: 21160] IPC started 
+2025-08-17 00:20:01 [debug] : [git-locator: 21160] IPC exited 
+2025-08-17 00:23:25 [debug] : [git-locator: 49400] IPC started 
+2025-08-17 00:23:25 [debug] : [git-locator: 49400] IPC exited 
+2025-08-17 00:26:15 [debug] : [git-locator: 49780] IPC started 
+2025-08-17 00:26:16 [debug] : [git-locator: 49780] IPC exited 
+2025-08-17 00:26:21 [debug] : [git-locator: 22980] IPC started 
+2025-08-17 00:26:22 [debug] : [git-locator: 22980] IPC exited 
+2025-08-17 00:26:28 [debug] : [git-locator: 40312] IPC started 
+2025-08-17 00:26:28 [debug] : [git-locator: 40312] IPC exited 
+2025-08-17 00:27:15 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:27:15 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:27:15 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:27:15 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:27:17 [debug] : [git-locator: 41964] IPC started 
+2025-08-17 00:27:18 [debug] : [git-locator: 41964] IPC exited 
+2025-08-17 00:28:31 [debug] : [git-locator: 28896] IPC started 
+2025-08-17 00:28:32 [debug] : [git-locator: 28896] IPC exited 
+2025-08-17 00:28:33 [debug] : [git-locator: 18144] IPC started 
+2025-08-17 00:28:34 [debug] : [git-locator: 18144] IPC exited 
+2025-08-17 00:28:35 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:28:35 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:28:35 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:28:35 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:28:37 [debug] : [git-locator: 41908] IPC started 
+2025-08-17 00:28:38 [debug] : [git-locator: 41908] IPC exited 
+2025-08-17 00:28:45 [debug] : [git-locator: 35412] IPC started 
+2025-08-17 00:28:46 [debug] : [git-locator: 35412] IPC exited 
+2025-08-17 00:28:46 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:28:46 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:28:46 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:28:46 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:28:48 [debug] : [git-locator: 32104] IPC started 
+2025-08-17 00:28:49 [debug] : [git-locator: 32104] IPC exited 
+2025-08-17 00:29:32 [debug] : [git-locator: 48316] IPC started 
+2025-08-17 00:29:33 [debug] : [git-locator: 48316] IPC exited 
+2025-08-17 00:29:50 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-17 00:29:50 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:29:50 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-17 00:29:50 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-17 00:29:52 [debug] : [git-locator: 41364] IPC started 
+2025-08-17 00:29:53 [debug] : [git-locator: 41364] IPC exited 
+2025-08-17 00:40:23 [debug] : Shutting down because of Close request. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/commands'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/logger'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/messageService'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/envs'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/workspace'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-08-17 00:40:23 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/application'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/i18n'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/project'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/component'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/debugger'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/debug'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/task'. 
+2025-08-17 00:40:23 [debug] : a client has disconnected - removed from list: 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/search'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/request-service'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/server'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/repository'. 
+2025-08-17 00:40:23 [debug] : [Repository Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-08-17 00:40:23 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/build'. 
+2025-08-17 00:40:23 [debug] : [Build Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/aie'. 
+2025-08-17 00:40:23 [debug] : [AIE Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/analysis'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/notification'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/platform'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-08-17 00:40:23 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-08-17 00:40:23 [debug] : [Logger Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/device'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/vcxx'. 
+2025-08-17 00:40:23 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-08-17 00:40:23 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/git'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/git-watcher'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/report-model'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-08-17 00:40:23 [debug] : Closing channel on service path '/services/keytar'. 

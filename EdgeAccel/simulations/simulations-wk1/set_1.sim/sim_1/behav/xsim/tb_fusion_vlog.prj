@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../rtl/fusion_top.sv" \
+"../../../../../rtl/kalman_core.sv" \
+"../../../../../rtl/matrix_mult.sv" \
+"../../../../../rtl/tb_fusion.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

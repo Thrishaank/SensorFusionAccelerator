@@ -1,0 +1,195 @@
+Time resolution is 1 ps
+WARNING: File expected_output.mem referenced on C:/Users/thris/EdgeAccelerator/TestingLayout/rtl/fusion_top.sv at line 119 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+[SB] Loaded expected output from expected_output.mem
+ERROR: Could not open vcd file waveforms1/fusion_uvm.vcd. A VCD file by name fusion_wave.vcd has already been opened. Only one VCD file is allowed to be open.
+[LiDAR MON] Time: 55000 | Sample 0 | Data: 120
+[IMU_MON] Sample 1: imu_data = 100
+[LiDAR MON] Time: 65000 | Sample 1 | Data: 123
+[IMU_MON] Sample 2: imu_data = 102
+[LiDAR MON] Time: 75000 | Sample 2 | Data: 126
+[IMU_MON] Sample 3: imu_data = 104
+[LiDAR MON] Time: 85000 | Sample 3 | Data: 129
+[IMU_MON] Sample 4: imu_data = 106
+[LiDAR MON] Time: 95000 | Sample 4 | Data: 132
+[IMU_MON] Sample 5: imu_data = 108
+[LiDAR MON] Time: 105000 | Sample 5 | Data: 135
+[IMU_MON] Sample 6: imu_data = 110
+[LiDAR MON] Time: 115000 | Sample 6 | Data: 138
+[IMU_MON] Sample 7: imu_data = 112
+[LiDAR MON] Time: 125000 | Sample 7 | Data: 141
+[IMU_MON] Sample 8: imu_data = 114
+[LiDAR MON] Time: 135000 | Sample 8 | Data: 144
+[IMU_MON] Sample 9: imu_data = 116
+[LiDAR MON] Time: 145000 | Sample 9 | Data: 147
+[IMU_MON] Sample 10: imu_data = 118
+[LiDAR MON] Time: 155000 | Sample 10 | Data: 150
+[IMU_MON] Sample 11: imu_data = 120
+[LiDAR MON] Time: 165000 | Sample 11 | Data: 153
+[IMU_MON] Sample 12: imu_data = 122
+[LiDAR MON] Time: 175000 | Sample 12 | Data: 156
+[IMU_MON] Sample 13: imu_data = 124
+[LiDAR MON] Time: 185000 | Sample 13 | Data: 159
+[IMU_MON] Sample 14: imu_data = 126
+[LiDAR MON] Time: 195000 | Sample 14 | Data: 162
+[IMU_MON] Sample 15: imu_data = 128
+[LiDAR MON] Time: 205000 | Sample 15 | Data: 165
+[IMU_MON] Sample 16: imu_data = 130
+[LiDAR MON] Time: 215000 | Sample 16 | Data: 120
+[IMU_MON] Sample 17: imu_data = 100
+[LiDAR MON] Time: 225000 | Sample 17 | Data: 123
+[IMU_MON] Sample 18: imu_data = 102
+[LiDAR MON] Time: 235000 | Sample 18 | Data: 126
+[IMU_MON] Sample 19: imu_data = 104
+[LiDAR MON] Time: 245000 | Sample 19 | Data: 129
+[IMU_MON] Sample 20: imu_data = 106
+[LiDAR MON] Time: 255000 | Sample 20 | Data: 132
+[IMU_MON] Sample 21: imu_data = 108
+[LiDAR MON] Time: 265000 | Sample 21 | Data: 135
+[IMU_MON] Sample 22: imu_data = 110
+[LiDAR MON] Time: 275000 | Sample 22 | Data: 138
+[IMU_MON] Sample 23: imu_data = 112
+[LiDAR MON] Time: 285000 | Sample 23 | Data: 141
+[IMU_MON] Sample 24: imu_data = 114
+[LiDAR MON] Time: 295000 | Sample 24 | Data: 144
+[IMU_MON] Sample 25: imu_data = 116
+[LiDAR MON] Time: 305000 | Sample 25 | Data: 147
+[IMU_MON] Sample 26: imu_data = 118
+[LiDAR MON] Time: 315000 | Sample 26 | Data: 150
+[IMU_MON] Sample 27: imu_data = 120
+[LiDAR MON] Time: 325000 | Sample 27 | Data: 153
+[IMU_MON] Sample 28: imu_data = 122
+[LiDAR MON] Time: 335000 | Sample 28 | Data: 156
+[IMU_MON] Sample 29: imu_data = 124
+[LiDAR MON] Time: 345000 | Sample 29 | Data: 159
+[IMU_MON] Sample 30: imu_data = 126
+[LiDAR MON] Time: 355000 | Sample 30 | Data: 162
+[IMU_MON] Sample 31: imu_data = 128
+[LiDAR MON] Time: 365000 | Sample 31 | Data: 165
+[IMU_MON] Sample 32: imu_data = 130
+[LiDAR MON] Time: 375000 | Sample 32 | Data: 120
+[IMU_MON] Sample 33: imu_data = 100
+[LiDAR MON] Time: 385000 | Sample 33 | Data: 123
+[IMU_MON] Sample 34: imu_data = 102
+[LiDAR MON] Time: 395000 | Sample 34 | Data: 126
+[IMU_MON] Sample 35: imu_data = 104
+[LiDAR MON] Time: 405000 | Sample 35 | Data: 129
+[IMU_MON] Sample 36: imu_data = 106
+[LiDAR MON] Time: 415000 | Sample 36 | Data: 132
+[IMU_MON] Sample 37: imu_data = 108
+[LiDAR MON] Time: 425000 | Sample 37 | Data: 135
+[IMU_MON] Sample 38: imu_data = 110
+[LiDAR MON] Time: 435000 | Sample 38 | Data: 138
+[IMU_MON] Sample 39: imu_data = 112
+[LiDAR MON] Time: 445000 | Sample 39 | Data: 141
+[IMU_MON] Sample 40: imu_data = 114
+[LiDAR MON] Time: 455000 | Sample 40 | Data: 144
+[IMU_MON] Sample 41: imu_data = 116
+[LiDAR MON] Time: 465000 | Sample 41 | Data: 147
+[IMU_MON] Sample 42: imu_data = 118
+[LiDAR MON] Time: 475000 | Sample 42 | Data: 150
+[IMU_MON] Sample 43: imu_data = 120
+[LiDAR MON] Time: 485000 | Sample 43 | Data: 153
+[IMU_MON] Sample 44: imu_data = 122
+[LiDAR MON] Time: 495000 | Sample 44 | Data: 156
+[IMU_MON] Sample 45: imu_data = 124
+[LiDAR MON] Time: 505000 | Sample 45 | Data: 159
+[IMU_MON] Sample 46: imu_data = 126
+[LiDAR MON] Time: 515000 | Sample 46 | Data: 162
+[IMU_MON] Sample 47: imu_data = 128
+[LiDAR MON] Time: 525000 | Sample 47 | Data: 165
+[IMU_MON] Sample 48: imu_data = 130
+[LiDAR MON] Time: 535000 | Sample 48 | Data: 120
+[IMU_MON] Sample 49: imu_data = 100
+[LiDAR MON] Time: 545000 | Sample 49 | Data: 123
+[IMU_MON] Sample 50: imu_data = 102
+[LiDAR MON] Time: 555000 | Sample 50 | Data: 126
+[IMU_MON] Sample 51: imu_data = 104
+[LiDAR MON] Time: 565000 | Sample 51 | Data: 129
+[IMU_MON] Sample 52: imu_data = 106
+[LiDAR MON] Time: 575000 | Sample 52 | Data: 132
+[IMU_MON] Sample 53: imu_data = 108
+[LiDAR MON] Time: 585000 | Sample 53 | Data: 135
+[IMU_MON] Sample 54: imu_data = 110
+[LiDAR MON] Time: 595000 | Sample 54 | Data: 138
+[IMU_MON] Sample 55: imu_data = 112
+[LiDAR MON] Time: 605000 | Sample 55 | Data: 141
+[IMU_MON] Sample 56: imu_data = 114
+[LiDAR MON] Time: 615000 | Sample 56 | Data: 144
+[IMU_MON] Sample 57: imu_data = 116
+[LiDAR MON] Time: 625000 | Sample 57 | Data: 147
+[IMU_MON] Sample 58: imu_data = 118
+[LiDAR MON] Time: 635000 | Sample 58 | Data: 150
+[IMU_MON] Sample 59: imu_data = 120
+[LiDAR MON] Time: 645000 | Sample 59 | Data: 153
+[IMU_MON] Sample 60: imu_data = 122
+[LiDAR MON] Time: 655000 | Sample 60 | Data: 156
+[IMU_MON] Sample 61: imu_data = 124
+[LiDAR MON] Time: 665000 | Sample 61 | Data: 159
+[IMU_MON] Sample 62: imu_data = 126
+[LiDAR MON] Time: 675000 | Sample 62 | Data: 162
+[IMU_MON] Sample 63: imu_data = 128
+[LiDAR MON] Time: 685000 | Sample 63 | Data: 165
+[IMU_MON] Sample 64: imu_data = 130
+[LiDAR MON] Time: 695000 | Sample 64 | Data: 120
+[IMU_MON] Sample 65: imu_data = 100
+[LiDAR MON] Time: 705000 | Sample 65 | Data: 123
+[IMU_MON] Sample 66: imu_data = 102
+[LiDAR MON] Time: 715000 | Sample 66 | Data: 126
+[IMU_MON] Sample 67: imu_data = 104
+[LiDAR MON] Time: 725000 | Sample 67 | Data: 129
+[IMU_MON] Sample 68: imu_data = 106
+[LiDAR MON] Time: 735000 | Sample 68 | Data: 132
+[IMU_MON] Sample 69: imu_data = 108
+[LiDAR MON] Time: 745000 | Sample 69 | Data: 135
+[IMU_MON] Sample 70: imu_data = 110
+[LiDAR MON] Time: 755000 | Sample 70 | Data: 138
+[IMU_MON] Sample 71: imu_data = 112
+[LiDAR MON] Time: 765000 | Sample 71 | Data: 141
+[IMU_MON] Sample 72: imu_data = 114
+[LiDAR MON] Time: 775000 | Sample 72 | Data: 144
+[IMU_MON] Sample 73: imu_data = 116
+[LiDAR MON] Time: 785000 | Sample 73 | Data: 147
+[IMU_MON] Sample 74: imu_data = 118
+[LiDAR MON] Time: 795000 | Sample 74 | Data: 150
+[IMU_MON] Sample 75: imu_data = 120
+[LiDAR MON] Time: 805000 | Sample 75 | Data: 153
+[IMU_MON] Sample 76: imu_data = 122
+[LiDAR MON] Time: 815000 | Sample 76 | Data: 156
+[IMU_MON] Sample 77: imu_data = 124
+[LiDAR MON] Time: 825000 | Sample 77 | Data: 159
+[IMU_MON] Sample 78: imu_data = 126
+[LiDAR MON] Time: 835000 | Sample 78 | Data: 162
+[IMU_MON] Sample 79: imu_data = 128
+[LiDAR MON] Time: 845000 | Sample 79 | Data: 165
+[IMU_MON] Sample 80: imu_data = 130
+[LiDAR MON] Time: 855000 | Sample 80 | Data: 120
+[IMU_MON] Sample 81: imu_data = 100
+[LiDAR MON] Time: 865000 | Sample 81 | Data: 123
+[IMU_MON] Sample 82: imu_data = 102
+[LiDAR MON] Time: 875000 | Sample 82 | Data: 126
+[IMU_MON] Sample 83: imu_data = 104
+[LiDAR MON] Time: 885000 | Sample 83 | Data: 129
+[IMU_MON] Sample 84: imu_data = 106
+[LiDAR MON] Time: 895000 | Sample 84 | Data: 132
+[IMU_MON] Sample 85: imu_data = 108
+[LiDAR MON] Time: 905000 | Sample 85 | Data: 135
+[IMU_MON] Sample 86: imu_data = 110
+[LiDAR MON] Time: 915000 | Sample 86 | Data: 138
+[IMU_MON] Sample 87: imu_data = 112
+[LiDAR MON] Time: 925000 | Sample 87 | Data: 141
+[IMU_MON] Sample 88: imu_data = 114
+[LiDAR MON] Time: 935000 | Sample 88 | Data: 144
+[IMU_MON] Sample 89: imu_data = 116
+[LiDAR MON] Time: 945000 | Sample 89 | Data: 147
+[IMU_MON] Sample 90: imu_data = 118
+[LiDAR MON] Time: 955000 | Sample 90 | Data: 150
+[IMU_MON] Sample 91: imu_data = 120
+[LiDAR MON] Time: 965000 | Sample 91 | Data: 153
+[IMU_MON] Sample 92: imu_data = 122
+[LiDAR MON] Time: 975000 | Sample 92 | Data: 156
+[IMU_MON] Sample 93: imu_data = 124
+[LiDAR MON] Time: 985000 | Sample 93 | Data: 159
+[IMU_MON] Sample 94: imu_data = 126
+[LiDAR MON] Time: 995000 | Sample 94 | Data: 162
+[IMU_MON] Sample 95: imu_data = 128
+[IMU_MON] Monitoring finished. 95 samples logged.

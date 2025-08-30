@@ -1,0 +1,6 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:\Xilinx\Vivado\2024.2\bin\unwrapped\win64.o\xelab.exe fusion_test_top -L xil_defaultlib -s fusion_test_top_sim --debug typical 
+Multi-threading is on. Using 14 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit work.fusion_test_top in library work located at xsim.dir/work.

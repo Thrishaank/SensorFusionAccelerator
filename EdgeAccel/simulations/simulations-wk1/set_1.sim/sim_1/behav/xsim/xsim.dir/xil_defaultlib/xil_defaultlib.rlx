@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/thris/EdgeAccelerator/SET1/rtl/fusion_top.sv,1753994042,systemVerilog,,C:/Users/thris/EdgeAccelerator/SET1/rtl/kalman_core.sv,,fusion_top,,uvm,,,,,,
+,,,,C:/Users/thris/EdgeAccelerator/SET1/rtl/matrix_mult.sv,,kalman_core,,,,,,,,
+,,,,C:/Users/thris/EdgeAccelerator/SET1/rtl/tb_fusion.sv,,matrix_mult,,,,,,,,
+C:/Users/thris/EdgeAccelerator/SET1/rtl/tb_fusion.sv,1753824882,systemVerilog,,,,tb_fusion,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/SET1/set_1/set_1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,

@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Starting Sensor Fusion Simulation...
+WARNING: File imu_data.mem referenced on C:/Users/thris/EdgeAccelerator/SET1/rtl/kalman_core.sv at line 37 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File lidar_data.mem referenced on C:/Users/thris/EdgeAccelerator/SET1/rtl/kalman_core.sv at line 37 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File expected_output.mem referenced on C:/Users/thris/EdgeAccelerator/SET1/rtl/kalman_core.sv at line 37 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.

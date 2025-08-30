@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../rtl/fusion_sb.sv" \
+"../../../../rtl/fusion_top.sv" \
+"../../../../rtl/imu_mon.sv" \
+"../../../../rtl/imu_seq.sv" \
+"../../../../rtl/lidar_mon.sv" \
+"../../../../rtl/lidar_seq.sv" \
+"../../../../rtl/tb_fusion.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

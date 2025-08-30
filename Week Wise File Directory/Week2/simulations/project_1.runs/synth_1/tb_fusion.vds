@@ -1,0 +1,355 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Aug 21 18:06:50 2025
+# Process ID         : 2484
+# Current directory  : C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log tb_fusion.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_fusion.tcl
+# Log file           : C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.runs/synth_1/tb_fusion.vds
+# Journal file       : C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : ROG-007
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16780 MB
+# Swap memory        : 12348 MB
+# Total Virtual      : 29128 MB
+# Available Virtual  : 6040 MB
+#-----------------------------------------------------------
+source tb_fusion.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 367.879 ; gain = 63.898
+Command: read_checkpoint -auto_incremental -incremental C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.srcs/utils_1/imports/synth_1/tb_fusion.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.srcs/utils_1/imports/synth_1/tb_fusion.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top tb_fusion -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 43168
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 850.668 ; gain = 473.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tb_fusion' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:3]
+WARNING: [Synth 8-11581] system task call 'dumpfile' not supported [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:79]
+WARNING: [Synth 8-11581] system task call 'dumpvars' not supported [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:80]
+INFO: [Synth 8-251] Testbench completed. [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:97]
+WARNING: [Synth 8-11581] system task call 'finish' not supported [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:98]
+WARNING: [Synth 8-11581] system task call 'dumpfile' not supported [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:102]
+WARNING: [Synth 8-11581] system task call 'dumpvars' not supported [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:103]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'fusion_top' [C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv:75]
+INFO: [Synth 8-6155] done synthesizing module 'fusion_top' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv:1]
+WARNING: [Synth 8-7071] port 's_axi_awaddr' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_awvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_awready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_wdata' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_wstrb' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_wvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_wready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_bresp' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_bvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_bready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_araddr' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_arvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_arready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_rdata' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_rresp' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_rvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7071] port 's_axi_rready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+WARNING: [Synth 8-7023] instance 'dut' of module 'fusion_top' has 25 connections declared, but only 8 given [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'imu_seq' [C:/Users/thris/EdgeAccelerator/SET2/imu_seq.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'imu_seq' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/imu_seq.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'lidar_seq' [C:/Users/thris/EdgeAccelerator/SET2/lidar_seq.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'lidar_seq' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/lidar_seq.sv:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:51]
+INFO: [Synth 8-6157] synthesizing module 'imu_mon' [C:/Users/thris/EdgeAccelerator/SET2/imu_mon.sv:1]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/thris/EdgeAccelerator/SET2/imu_mon.sv:17]
+WARNING: [Synth 8-11581] system task call 'fwrite' not supported [C:/Users/thris/EdgeAccelerator/SET2/imu_mon.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'imu_mon' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/imu_mon.sv:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'lidar_mon' [C:/Users/thris/EdgeAccelerator/SET2/lidar_mon.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'lidar_mon' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/lidar_mon.sv:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:70]
+INFO: [Synth 8-6157] synthesizing module 'fusion_sb' [C:/Users/thris/EdgeAccelerator/SET2/fusion_sb.sv:1]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter SEQ_LEN bound to: 16 - type: integer 
+	Parameter MEM_FILE bound to: expected_output.mem - type: string 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'expected_output.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/thris/EdgeAccelerator/SET2/fusion_sb.sv:17]
+INFO: [Synth 8-251] [SB] Loaded expected output from expected_output.mem [C:/Users/thris/EdgeAccelerator/SET2/fusion_sb.sv:18]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/thris/EdgeAccelerator/SET2/fusion_sb.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'fusion_sb' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/fusion_sb.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'tb_fusion' (0#1) [C:/Users/thris/EdgeAccelerator/SET2/tb_fusion.sv:3]
+WARNING: [Synth 8-3848] Net kalman_out in module/entity fusion_top does not have driver. [C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv:115]
+WARNING: [Synth 8-3848] Net kalman_out_valid in module/entity fusion_top does not have driver. [C:/Users/thris/EdgeAccelerator/SET2/fusion_top.sv:116]
+WARNING: [Synth 8-7129] Port clk in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port valid in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[15] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[14] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[13] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[12] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[11] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[10] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[9] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[8] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[7] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[6] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[5] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[4] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[3] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[2] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[1] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_out[0] in module fusion_sb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[15] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[14] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[13] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[12] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[11] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[10] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[9] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[8] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[7] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[6] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[5] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[4] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[3] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[2] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[1] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lidar_data[0] in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port valid in module lidar_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[15] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[14] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[13] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[12] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[11] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[10] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[9] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[8] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[7] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[6] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[5] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[4] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[3] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[2] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[1] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imu_data[0] in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port valid in module imu_mon is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[15] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[14] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[13] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[12] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[11] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[10] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[9] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[8] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[7] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[6] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[5] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[4] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[3] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[2] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[1] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_data[0] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port kalman_valid in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[31] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[30] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[29] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[28] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[27] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[26] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[25] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[24] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[23] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[22] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[21] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[20] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[19] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[18] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[17] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[16] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[15] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[14] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[13] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[12] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[11] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[10] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[9] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[8] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[7] in module fusion_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[6] in module fusion_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 956.719 ; gain = 579.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 956.719 ; gain = 579.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 956.719 ; gain = 579.137
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 956.719 ; gain = 579.137
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1093.926 ; gain = 716.344
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1118.793 ; gain = 741.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1118.793 ; gain = 741.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 176 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 1320.195 ; gain = 942.613
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1321.188 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1444.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: df8a92ae
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 133 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 1444.277 ; gain = 1072.918
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/thris/EdgeAccelerator/SET2/project_1/project_1.runs/synth_1/tb_fusion.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file tb_fusion_utilization_synth.rpt -pb tb_fusion_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 21 18:07:55 2025...
