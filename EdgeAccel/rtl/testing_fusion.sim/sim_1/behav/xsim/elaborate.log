@@ -1,0 +1,33 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fusion_behav xil_defaultlib.tb_fusion xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's_axi_wstrb' is not connected on this instance [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion.sv:22]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv" Line 1. Module fusion_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_seq.sv" Line 1. Module imu_seq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_seq.sv" Line 1. Module lidar_seq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_mon.sv" Line 1. Module imu_mon doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_mon.sv" Line 1. Module lidar_mon doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_sb.sv" Line 1. Module fusion_sb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv" Line 1. Module fusion_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_seq.sv" Line 1. Module imu_seq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_seq.sv" Line 1. Module lidar_seq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_mon.sv" Line 1. Module imu_mon doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_mon.sv" Line 1. Module lidar_mon doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_sb.sv" Line 1. Module fusion_sb doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fusion_top
+Compiling module xil_defaultlib.imu_seq
+Compiling module xil_defaultlib.lidar_seq
+Compiling module xil_defaultlib.imu_mon
+Compiling module xil_defaultlib.lidar_mon
+Compiling module xil_defaultlib.fusion_sb
+Compiling module xil_defaultlib.tb_fusion
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fusion_behav

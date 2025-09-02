@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_sb.sv,1755390893,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv,,fusion_sb,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv,1755392569,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_mon.sv,,fusion_top,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_mon.sv,1755389422,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_seq.sv,,imu_mon,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_seq.sv,1755141297,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_mon.sv,,imu_seq,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_mon.sv,1755389577,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_seq.sv,,lidar_mon,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_seq.sv,1755141298,systemVerilog,,C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion.sv,,lidar_seq,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion.sv,1755818382,systemVerilog,,,,tb_fusion,,uvm,,,,,,
+C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_sb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fusion_sb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fusion_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_mon.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imu_mon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/imu_seq.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imu_seq
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_mon.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lidar_mon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/lidar_seq.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lidar_seq
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fusion
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/testing_fusion.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

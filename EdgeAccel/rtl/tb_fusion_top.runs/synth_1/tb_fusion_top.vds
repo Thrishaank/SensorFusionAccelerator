@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Sep  1 21:35:59 2025
+# Process ID         : 42424
+# Current directory  : C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.runs/synth_1
+# Command line       : vivado.exe -log tb_fusion_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_fusion_top.tcl
+# Log file           : C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.runs/synth_1/tb_fusion_top.vds
+# Journal file       : C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.runs/synth_1\vivado.jou
+# Running On         : ROG-007
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16780 MB
+# Swap memory        : 11532 MB
+# Total Virtual      : 28313 MB
+# Available Virtual  : 3156 MB
+#-----------------------------------------------------------
+source tb_fusion_top.tcl -notrace
+Command: synth_design -top tb_fusion_top -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16960
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 845.879 ; gain = 476.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tb_fusion_top' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:1]
+WARNING: [Synth 8-6896] event control except as first statement of always block inside initial block, initial block items will be ignored [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:39]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:55]
+WARNING: [Synth 8-11581] system task call 'fwrite' not supported [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:56]
+WARNING: [Synth 8-11581] system task call 'dumpfile' not supported [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:70]
+WARNING: [Synth 8-11581] system task call 'dumpvars' not supported [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:71]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'fusion_top' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:75]
+INFO: [Synth 8-6155] done synthesizing module 'fusion_top' (0#1) [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1]
+ERROR: [Synth 8-11365] for the instance 'dut' of module 'fusion_top' declared at 'C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1', named port connection 'imu_ax' does not exist [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:19]
+ERROR: [Synth 8-11365] for the instance 'dut' of module 'fusion_top' declared at 'C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1', named port connection 'imu_az' does not exist [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:20]
+ERROR: [Synth 8-11365] for the instance 'dut' of module 'fusion_top' declared at 'C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1', named port connection 'valid_in' does not exist [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:21]
+ERROR: [Synth 8-11365] for the instance 'dut' of module 'fusion_top' declared at 'C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1', named port connection 'fusion_result' does not exist [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:22]
+ERROR: [Synth 8-11365] for the instance 'dut' of module 'fusion_top' declared at 'C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/fusion_top.sv:1', named port connection 'fusion_valid' does not exist [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:23]
+WARNING: [Synth 8-7071] port 's_axi_awaddr' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_awvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_awready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_wdata' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_wstrb' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_wvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_wready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_bresp' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_bvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_bready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_araddr' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_arvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_arready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_rdata' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_rresp' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_rvalid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 's_axi_rready' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'imu_data' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'imu_valid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'lidar_data' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'lidar_valid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'kalman_data' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7071] port 'kalman_valid' of module 'fusion_top' is unconnected for instance 'dut' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-7023] instance 'dut' of module 'fusion_top' has 25 connections declared, but only 2 given [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:16]
+WARNING: [Synth 8-11581] system task call 'fwrite' not supported [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:61]
+ERROR: [Synth 8-6156] failed synthesizing module 'tb_fusion_top' [C:/Users/thris/EdgeAccelerator/EdgeAccel/rtl/tb_fusion_top.sv:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 951.480 ; gain = 582.117
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 32 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  1 21:36:09 2025...

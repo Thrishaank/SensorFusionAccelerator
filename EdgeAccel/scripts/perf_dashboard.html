@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fusion Performance Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Fusion Performance Metrics</h2>
+  <canvas id="latencyChart" width="800" height="400"></canvas>
+
+  <script>
+    fetch('/api/metrics')
+      .then(response => response.json())
+      .then(data => {
+        const labels = data.map(d => d.timestamp);
+        const latencies = data.map(d => parseFloat(d.latency_ms));
+
+        new Chart(document.getElementById('latencyChart'), {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Latency (ms)',
+              data: latencies,
+              borderWidth: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      });
+  </script>
+</body>
+</html>
